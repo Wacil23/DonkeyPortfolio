@@ -11,6 +11,9 @@ body {
     src: url(/font/BebasNeue-Regular.ttf);
 }
 
+
+/* HEADER */
+
 header {
     height: 200px;
 }
@@ -163,6 +166,9 @@ header {
     box-shadow: 8px 8px 16px #d8d8d8, -8px -8px 16px #ffffff;
 }
 
+
+/* PREMIERE SECTION HERO */
+
 .content__text {
     font-family: 'bebas';
     width: 100%;
@@ -183,6 +189,9 @@ section:first-child {
 section:nth-child(2) {
     height: 120vh;
 }
+
+
+/* Deuxieme section  */
 
 .container {
     display: flex;
@@ -375,6 +384,9 @@ h4 {
 .custom-shape-divider-bottom-1642619507 .shape-fill {
     fill: #c71111;
 }
+
+
+/* troisieme SECTION */
 
 .content__text__project {
     text-align: center;
@@ -575,6 +587,9 @@ svg circle:nth-child(2) {
     fill: #f0f0f0;
 }
 
+
+/* CONTACT */
+
 section:last-child {
     height: 170vh;
     background-color: #161623;
@@ -689,6 +704,9 @@ h2 {
 .custom-shape-divider-top-1642713415 .shape-fill {
     fill: #161623;
 }
+
+
+/* Responsive */
 
 @media screen and (max-width: 1270px) {
     .container__progress {

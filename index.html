@@ -160,11 +160,11 @@
         const input = document.getElementById('first__name');
         const input2 = document.getElementById('last__name');
         const input3 = document.getElementById('message');
-        const checkbox = document.getElementById('toggle')
 
         const label = document.getElementById('first');
         const label2 = document.getElementById('last');
         const label3 = document.getElementById('sub');
+
         input.addEventListener("focus", function() {
             label.style.webkitTextStrokeColor = 'red'
             label.style.transition = '0.8s'
@@ -173,8 +173,8 @@
         });
         input2.addEventListener("focus", function() {
             label2.style.webkitTextStrokeColor = 'red'
-            label.style.webkitTextStrokeColor = '#000'
             label2.style.transition = '0.8s'
+            label.style.webkitTextStrokeColor = '#000'
             label3.style.webkitTextStrokeColor = '#000'
         });
         input3.addEventListener("focus", function() {
