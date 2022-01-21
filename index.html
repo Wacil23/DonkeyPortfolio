@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.scss">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <input type="checkbox" class="navigation__checkbox" id="toggle">
+        <label for="toggle" class="navigation__btn">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="content__bg">
+            <div class="nav__bg">&nbsp;</div>
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#projects" class="nav__link">Projects</a></li>
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="content__text">
+                <h1>Welcome to my <span>Portfolio</span></h1>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="content__text__project">
+                <span class="myprojects">My Projects</span>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="box">
+                        <div class="content">
+                            <h3 class="text">01</h3>
+                            <h4>Yummy-Wok</h4>
+                            <p>The first experience in my dev life was a chinese restaurant, it was the most rewarding experience. </p>
+                            <a href="https://yummy-wok.fr">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="content">
+                            <h3 class="text">02</h3>
+                            <h4>Jack le cactus</h4>
+                            <p>Jack was a plush cactus that I dicided to sale for christmas with Shopify and learnt me to use CMS like Shopify or Wordpress for the firt time.</p>
+                            <a href="https://jacklecactus.fr">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="custom-shape-divider-top-1642629064" id="svg">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <section class="bg" id="skills">
+            <div class="content__text__project2">
+                <span class="myprojects">My Skills</span>
+            </div>
+            <div class="container__progress">
+                <div class="card__projects">
+                    <div class="box__projects">
+                        <div class="percentage">
+                            <svg>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h5>80<span>%</span></h5>
+                            </div>
+                        </div>
+                        <h5 class="text__percent">html</h5>
+                    </div>
+                </div>
+                <div class="card__projects">
+                    <div class="box__projects">
+                        <div class="percentage">
+                            <svg>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h5>70<span>%</span></h5>
+                            </div>
+                        </div>
+                        <h5 class="text__percent">css</h5>
+                    </div>
+                </div>
+                <div class="card__projects">
+                    <div class="box__projects">
+                        <div class="percentage">
+                            <svg>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h5>20<span>%</span></h5>
+                            </div>
+                        </div>
+                        <h5 class="text__percent">java</h5>
+                    </div>
+                </div>
+                <div class="card__projects">
+                    <div class="box__projects">
+                        <div class="percentage">
+                            <svg>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                                <circle cx= "70" cy="70" r="70"></circle>
+                            </svg>
+                            <div class="number">
+                                <h5>60<span>%</span></h5>
+                            </div>
+                        </div>
+                        <h5 class="text__percent">responsive</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="content__text__project3">
+                <span class="myprojects">Contact Me .</span>
+            </div>
+            <div class="contact__form">
+                <form action="#">
+                    <label for="first__name" id="first">First Name</label>
+                    <input type="text" id="first__name" name="firstname" placeholder="Your name">
+                    <label for="last__name" id="last">Last Name</label>
+                    <input type="text" id="last__name" name="lastname" placeholder="Your last name">
+                    <label for="subject" id="sub">Subject</label>
+                    <textarea name="subject" placeholder="Your message" id="message" rows="6" cols="20"></textarea>
+                    <input type="submit" value="send">
+                </form>
+            </div>
+        </section>
+    </main>
+    <div class="custom-shape-divider-top-1642713415">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <footer>
+
+        <h2>My portfolio</h2>
+    </footer>
+    <script>
+        const input = document.getElementById('first__name');
+        const input2 = document.getElementById('last__name');
+        const input3 = document.getElementById('message');
+        const checkbox = document.getElementById('toggle')
+
+        const label = document.getElementById('first');
+        const label2 = document.getElementById('last');
+        const label3 = document.getElementById('sub');
+        input.addEventListener("focus", function() {
+            label.style.webkitTextStrokeColor = 'red'
+            label.style.transition = '0.8s'
+            label2.style.webkitTextStrokeColor = '#000'
+            label3.style.webkitTextStrokeColor = '#000'
+        });
+        input2.addEventListener("focus", function() {
+            label2.style.webkitTextStrokeColor = 'red'
+            label.style.webkitTextStrokeColor = '#000'
+            label2.style.transition = '0.8s'
+            label3.style.webkitTextStrokeColor = '#000'
+        });
+        input3.addEventListener("focus", function() {
+            label3.style.webkitTextStrokeColor = 'red'
+            label3.style.transition = '0.8s'
+            label.style.webkitTextStrokeColor = '#000'
+            label2.style.webkitTextStrokeColor = '#000'
+        })
+    </script>
+</body>
+
+</html>
